@@ -29,4 +29,7 @@ fmt.Printf("%d回でhogeが揃いました!\n", i)
 $ slot hoge
 # => hegeeghegheggegggeehgohhhoeogeggehehoohgeegggghogohoghhoghoeggghgeghhheoogeoheohoge
 #    83回で hoge が揃いました!
+$ slot ho ge fu ga
+# => hogahogegagafugahogefuga
+#    12回で hogefuga が揃いました!
 ```
