@@ -17,7 +17,7 @@ Usage
 ### As a Golang Library
 
 ```go
-s := New([]string{"h", "o", "g", "e"}, os.Stdout)
+s := slot.New([]string{"h", "o", "g", "e"}, os.Stdout)
 i := s.Start()
 fmt.Println()
 fmt.Printf("%d回でhogeが揃いました!\n", i)
