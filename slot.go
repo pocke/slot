@@ -30,7 +30,11 @@ func (s *Slot) Start() int {
 		fmt.Fprint(s.w, str)
 
 		if sym != i {
-			sym = 0
+			if i == 0 {
+				sym = 1
+			} else {
+				sym = 0
+			}
 			continue
 		} else {
 			sym++
